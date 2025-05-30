@@ -42,10 +42,10 @@ set3 = set1.difference(set2)
 
 print(set3)
 
-#instead of symmetric_difference we can use '^'
+#symmetric_difference.
 set1 = {"apple", "banana", "cherry"}
 set2 = {"google", "microsoft", "apple"}
-
+#instead of symmetric_difference we can use '^'
 set3 = set1.symmetric_difference(set2)
 
 print(set3)
